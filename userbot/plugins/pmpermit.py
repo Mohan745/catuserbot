@@ -125,11 +125,22 @@ You have {warns}/{totalwarns} warns until you get blocked by the CatUserbot.
 
 Choose an option from below to specify the reason of your message and wait for me to check it. __⬇️"""
     else:
-        USER_BOT_NO_WARN = f"""__Hi__ {mention}__, I haven't approved you yet to personal message me.
+        USER_BOT_NO_WARN = f"""
+Ena thambi entha pakkam lam 
+ethu baiyangarama pm acha 
 
-You have {warns}/{totalwarns} warns until you get blocked by the CatUserbot.
+unaki reply pandra alavuku ne periya allu ella 😂😂
 
-Don't spam my inbox. say reason and wait until my response.__"""
+
+
+
+Dei baby reply panura varaikum iru 
+Illana poda angutu
+
+
+Note : I love u 😘
+Apadini soluvanu paithya podi mental 🤡🤣🤣
+       """
     addgvar("pmpermit_text", USER_BOT_NO_WARN)
     PM_WARNS[str(chat.id)] += 1
     try:
